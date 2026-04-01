@@ -40,28 +40,28 @@ Run the script via your terminal or IDE:
 python hill_cipher.py
 ```
 
-## 🧪 Worked Examples
+## Worked Examples
 
 Below are two test cases demonstrating the transformation of plaintext through the encryption and hashing process.
 
 ### Example 1: Standard 3-Letter Word
 * **Plaintext**: `CAT`
 * **Key Matrix**: 
-    $$\begin{bmatrix} 6 & 24 & 1 \\ 13 & 16 & 10 \\ 20 & 17 & 15 \end{bmatrix}$$
-* **Ciphertext Output**: `PBF`
-* **Hash Output**: `0x3235339d`
+ [6 24  1] [13 16 10] [20 17 15] 
+* **Ciphertext Output**: `FIN`
+* **Hash Output**: `0xe2148930`
 
 ### Example 2: Padded Message (Length not multiple of 3)
-* **Plaintext**: `HELLO`
+* **Plaintext**: `SIBIN`
 * **Key Matrix**: 
-    $$\begin{bmatrix} 6 & 24 & 1 \\ 13 & 16 & 10 \\ 20 & 17 & 15 \end{bmatrix}$$
-* **Processing**: The system pads `HELLO` with `X` to fulfill the 3x3 matrix requirements, resulting in the block `HELLOX`.
-* **Ciphertext Output**: `RRLXWJ`
-* **Hash Output**: `0x794025d2`
+    [6 24  1] [13 16 10] [20 17 15] 
+* **Processing**: The system pads `SIBIN` with `X` to fulfill the 3x3 matrix requirements, resulting in the block `SIBINX`.
+* **Ciphertext Output**: `PIRTWY`
+* **Hash Output**: `0x412958c6`
 
 ---
 
-## 📂 Function Reference
+## Function Reference
 
 | Function | Description |
 | :--- | :--- |
