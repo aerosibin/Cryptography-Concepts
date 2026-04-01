@@ -33,12 +33,12 @@ pip install numpy
 
 ## 2. Execution
 
-Download both codes `hill_cipher.py` and `hash_func.py`
+Download all the three codes `hill_cipher.py`, `hash_func.py`, `test_script.py`
 
 Run the script via your terminal or IDE:
 
 ```bash
-python hill_cipher.py
+python test_script.py
 ```
 
 ## Worked Examples
