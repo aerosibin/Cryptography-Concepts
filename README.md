@@ -22,17 +22,18 @@ The hashing algorithm is inspired by the **FNV (Fowler–Noll–Vo)** hash. It e
 
 ---
 
-## 🚀 Instructions to Run
+##  Instructions to Run
 
 ### 1. Prerequisites
 Ensure you have **Python 3.x** installed. You will also need the **NumPy** library for matrix operations.
+
 ```bash
 pip install numpy
 ```
 
 ## 2. Execution
 
-Save the provided Python code as `hill_cipher.py`.
+Download both codes `hill_cipher.py` and `hash_func.py`
 
 Run the script via your terminal or IDE:
 
